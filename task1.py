@@ -2,7 +2,7 @@ import boto3
 import re # needed for regex
 from collections import Counter # used to initialize the counts as 0
 
-# S3 client and config
+# S3 client and bucket
 s3 = boto3.client('s3')
 bucket = 'cyberark-sr-sre-candidate-bucket'
 
